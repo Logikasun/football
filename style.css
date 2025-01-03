@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    background-color: #061b3e;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #E9F1FA;
+    margin-bottom: 20px;
+}
+
+.football {
+    width: 300px;
+    /* Ensuring a uniform width */
+    background-color: #0d8add;
+    color: #E9F1FA;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.football img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #0d8add;
+    z-index: 1;
+}
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    margin: auto 0;
+    font-size: 18px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #0d8add;
+    color: #E9F1FA;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-author p {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d8add;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gallery img{
+    padding: 20px;
+    width: 300px;
+}
+nav a:hover{
+color: #061b3e; 
+transition: 1s;
+}   
+
+
+.football:hover{
+   transform: scale(1.2);
+   color: #061b3e;
+   transition: 2s; 
+}
+
+.gallery img:hover{
+transform: scale(1.2);
+transition: 1s;
+}
